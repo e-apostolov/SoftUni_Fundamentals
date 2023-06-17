@@ -1,0 +1,16 @@
+# number_1 = int(input())
+# number_2 = int(input())
+# number_3 = int(input())
+# largest = 0
+#
+# if number_1 >= number_2 and number_1 >= number_3:
+#     largest = number_1
+# elif number_2 >= number_1 and number_2 >= number_3:
+#     largest = number_2
+# else:
+#     largest = number_3
+#
+# print(largest)
+
+number_1, number_2, number_3 = int(input()), int(input()), int(input())
+print(max(number_1, number_2, number_3))
