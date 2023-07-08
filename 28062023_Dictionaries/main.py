@@ -1,0 +1,1 @@
+char_dict = {char: number for (char, number) in input().split(", ")}
